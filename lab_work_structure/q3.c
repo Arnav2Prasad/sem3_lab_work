@@ -9,10 +9,10 @@ struct Hotel{
     float roomCharges;
 };
 
-void printHotelsByGrade(struct Hotel hotels[], int numHotels, int targetGrade) {
-    printf("\nHotels in Grade %d:\n", targetGrade);
+void printHotelsByGrade(struct Hotel hotels[], int numHotels, int grade) {
+    printf("\nHotels in Grade %d:\n", grade);
     for (int i = 0; i < numHotels; i++) {
-        if (hotels[i].grade == targetGrade) {
+        if (hotels[i].grade == grade) {
             printf("%s\n", hotels[i].name);
         }
     }
