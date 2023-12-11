@@ -1,13 +1,5 @@
 #include <stdio.h>
 
-typedef struct Student{
-    int rollNumber;
-    Name name;
-    char gender;
-    DateOfBirth dob;
-    Marks marks;
-} Student;
-
 typedef struct DateOfBirth {
     int day;
     int month;
@@ -25,6 +17,14 @@ typedef struct Name{
     char middleName[50];
     char lastName[50];
 } Name;
+
+typedef struct Student{
+    int rollNumber;
+    Name name;
+    char gender;
+    DateOfBirth dob;
+    Marks marks;
+} Student;
 
 
 
