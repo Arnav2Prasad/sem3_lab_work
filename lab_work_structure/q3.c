@@ -18,10 +18,10 @@ void printHotelsByGrade(struct Hotel hotels[], int numHotels, int grade) {
     }
 }
 
-void printHotelsByRoomCharges(struct Hotel hotels[], int numHotels, float maxRoomCharges) {
-    printf("\nHotels with Room Charges less than %.2f:\n", maxRoomCharges);
+void printHotelsByRoomCharges(struct Hotel hotels[], int numHotels, float x) {
+    printf("\nHotels with Room Charges less than %.2f:\n", x);
     for (int i = 0; i < numHotels; i++) {
-        if (hotels[i].roomCharges < maxRoomCharges) {
+        if (hotels[i].roomCharges < x) {
             printf("%s\n", hotels[i].name);
         }
     }
