@@ -1,24 +1,24 @@
 #include <stdio.h>
 
-typedef struct {
+typedef struct DateOfBirth {
     int day;
     int month;
     int year;
 } DateOfBirth;
 
-typedef struct {
+typedef struct Marks {
     float english;
     float mathematics;
     float computerScience;
 } Marks;
 
-typedef struct {
+typedef struct Name{
     char firstName[50];
     char middleName[50];
     char lastName[50];
 } Name;
 
-typedef struct {
+typedef struct Student{
     int roll
     int rollNumber;
     Name name;
